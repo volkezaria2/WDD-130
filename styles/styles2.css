@@ -1,0 +1,43 @@
+nav {
+    background-color: darkslategrey;
+    padding: 10px;
+}
+nav a {
+    color: green;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: darkpurple;
+}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 40px red;
+}
+p {
+    padding: 0;
+}
+main {
+    max-width: 940px;
+}
+aside {
+   width: 20rem;
+   margin: 1rem;
+   border: 1px solid rgb(0 0 0 / 0.3);
+   padding: 1rem;
+   background-color: #eeeeee;
+   color: #333;
+   text-align: center;
+}
+aside img {
+    width: 300px;
+    height: auto;
+}
+footer {
+    margin-top: 17px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
