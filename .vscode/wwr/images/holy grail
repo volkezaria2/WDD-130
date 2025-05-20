@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holy Grail Layout - Beautiful Edition</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      height: 100vh;
+      background: url('https://source.unsplash.com/1600x900/?nature,sunset') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      color: white;
+    }
+
+    header,
+    footer {
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      width: 100%;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+      margin: 10px;
+      gap: 10px;
+    }
+
+    nav,
+    aside {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      padding: 15px;
+      width: 250px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    nav:hover,
+    aside:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    article {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>🚀 Stunning Header</header>
+  <main>
+    <nav>🌍 Navigation</nav>
+    <article>
+      <h1>Welcome!</h1>
+      <p>Enjoy this **beautiful Holy Grail layout** with images & interactive elements.</p>
+    </article>
+    <aside>✨ Sidebar Magic</aside>
+  </main>
+  <footer>🔗 Footer Awesomeness</footer>
+</body>
+
+</html>
